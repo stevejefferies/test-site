@@ -1,6 +1,10 @@
 <html>
     <h1>Hello</h1>
-    <button type="button" id="example-button1">Click Me</button>
-    <button type="button" id="example-button2">Click Me BTN 2</button>
-    <div>some text here</div>
+    <form id="form_id" method="post" name="myform">
+    <label>USER:</label>
+    <input type="text" name="username" id="username"/>
+    <label>PASS:</label>
+    <input type="password" name="password" id="password"/>
+    <input type="button" value="LOGIN" id="submit" onclick="validate()"/>
+    </form>
 </html>
